@@ -61,7 +61,7 @@ const countriesListMarkup = data
     .map(
     ({ flags, name }) => `
             <li class="country-list__item">
-                <img src="${flags.svg}" width="40">
+                <img class="country-img" src="${flags.svg}" width="40">
                 <p>${name.official}</p>
             </li>
         `,
